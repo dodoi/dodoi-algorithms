@@ -46,6 +46,11 @@ public class MiniPathMatrix {
         return miniPathMatrix[row-1][col-1];
     }
 
+    /**
+     * 方法一，时间复杂度O(M*N)，空间复杂度O(N)
+     * @param array
+     * @return
+     */
     public static int getMiniPathBaseArray(int[][] array){
         if( array == null || array.length == 0 || array[0] == null || array[0].length == 0 ) {
             return 0;
