@@ -17,7 +17,7 @@ public class ArrayMinHeap {
                 this.shiftUp(i);
             }
         }
-        System.out.print(Arrays.toString(list));
+        System.out.println("初始化最小堆"+Arrays.toString(list));
     }
 
     /**
